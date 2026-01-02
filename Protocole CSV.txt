@@ -1,0 +1,146 @@
+============================================================
+CREATION D'UN FICHIER CSV A L'AIDE DE L'INTELLIGENCE ARTIFICIELLE
+============================================================
+
+Ce document explique comment creer un fichier CSV conforme au
+protocole du programme a partir d'informations trouvees sur
+Internet, en utilisant une intelligence artificielle (IA)
+comme outil d'assistance.
+
+
+------------------------------------------------------------
+1. OBJECTIF
+------------------------------------------------------------
+
+L'objectif est de produire rapidement un fichier CSV exploitable
+par le programme, sans saisie manuelle ligne par ligne.
+
+L'IA est utilisee comme :
+- outil d'aide a la structuration des donnees,
+- outil de mise en forme (CSV strict),
+- support pour transformer des informations brutes en donnees
+  exploitables par le programme.
+
+Le travail de verification et de validation finale reste humain.
+
+
+------------------------------------------------------------
+2. COLLECTE DES INFORMATIONS SUR INTERNET
+------------------------------------------------------------
+
+La premiere etape consiste a recueillir des informations fiables
+sur une ou plusieurs personnes (par exemple des deputes).
+
+Sources possibles :
+- sites institutionnels (assemblee nationale, parlements),
+- pages officielles ou biographies publiques,
+- documents publics relatifs aux votes ou positions politiques.
+
+Informations utiles a collecter :
+- identite (nom, identifiant si disponible),
+- parti ou groupe politique,
+- positions ideologiques generales,
+- votes publics (pour, contre, abstention, absence),
+- niveau de patrimoine si disponible (ou estimation par classe).
+
+Ces informations sont conservees sous forme de notes brutes
+avant transformation.
+
+
+------------------------------------------------------------
+3. PROTOCOLE DU FICHIER CSV
+------------------------------------------------------------
+
+Avant toute generation par l'IA, le protocole du CSV doit etre
+clairement defini et respecte.
+
+Exemples de regles imposees :
+- separateur : virgule (,)
+- pas d'accents ni de caracteres speciaux (ASCII simple)
+- une ligne par personne
+- identifiant unique (mp_id)
+
+Colonnes typiques :
+mp_id,
+nom,
+parti,
+axe_economie (-5 a +5),
+axe_societal (-5 a +5),
+patrimoine_classe (A a E),
+V001 a V008 (votes)
+
+Codage des votes :
+P = Pour
+C = Contre
+A = Abstention
+N = Absent
+
+Toute valeur hors protocole est interdite.
+
+
+------------------------------------------------------------
+4. UTILISATION DE L'IA POUR GENERER LE CSV
+------------------------------------------------------------
+
+Une fois les informations collectees et le protocole defini,
+l'IA est sollicitee avec :
+- les donnees brutes collectees,
+- les regles exactes du format CSV,
+- les contraintes de valeurs autorisees.
+
+L'IA transforme alors les informations en un fichier CSV
+strictement conforme.
+
+Exemple de demande type a l'IA :
+"Voici les informations de plusieurs personnes et le protocole
+du CSV. Genere un fichier CSV conforme, sans accents, avec des
+mp_id uniques et des votes codes P/C/A/N."
+
+
+------------------------------------------------------------
+5. VERIFICATIONS MANUELLES OBLIGATOIRES
+------------------------------------------------------------
+
+Avant utilisation dans le programme, le fichier CSV genere doit
+etre verifie manuellement.
+
+Points de controle :
+- presence de l'en-tete,
+- nombre correct de colonnes,
+- valeurs numeriques dans les bornes (-5 a +5),
+- votes limites a P/C/A/N,
+- aucune cellule vide ou invalide,
+- absence d'accents ou de caracteres non standards.
+
+Il est recommande d'ouvrir le fichier avec LibreOffice Calc pour
+verification, puis de l'enregistrer au format CSV.
+
+
+------------------------------------------------------------
+6. INTEGRATION DANS LE PROGRAMME
+------------------------------------------------------------
+
+Une fois verifie, le fichier CSV est place dans le repertoire
+du programme (ou un chemin explicite est fourni).
+
+Le programme peut alors :
+- charger automatiquement les donnees,
+- afficher la liste des personnes,
+- generer des profils complets,
+- effectuer des comparaisons,
+- produire des fichiers de resultats.
+
+
+------------------------------------------------------------
+7. CONCLUSION
+------------------------------------------------------------
+
+L'intelligence artificielle permet d'accelerer la creation des
+fichiers CSV en automatisant la structuration et la mise en
+forme des donnees.
+
+Elle agit uniquement comme un outil d'assistance.
+La validation finale, la coherence des donnees et leur conformite
+au protocole restent sous la responsabilite de l'utilisateur.
+
+============================================================
