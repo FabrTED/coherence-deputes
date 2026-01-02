@@ -17,8 +17,12 @@ Le programme permet :
 ## Compilation
 
 Le programme est concu pour etre compile en ligne de commande.
+Le Fichier CSV doit être mis dans le même dossier que le programme.
+Le Protocole est dispo dans un fichier .txt et sur le programme.
 
 ### Sous Windows (Code::Blocks ou MinGW)
 
 ```bash
 gcc src/main.c -o coherence -lm
+
+
