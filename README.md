@@ -17,6 +17,8 @@ Le programme permet :
 ## Compilation
 
 Le programme est concu pour etre compile en ligne de commande.
+Le Fichier CSV doit être mis dans le même dossier que le programme.
+Le Protocole est dispo dans le Protocole CSV.txt disponible dans la branche donnees et sur le programme.
 
 ### Sous Windows (Code::Blocks ou MinGW)
 
