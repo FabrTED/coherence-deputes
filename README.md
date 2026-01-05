@@ -18,7 +18,7 @@ Le programme permet :
 
 Le programme est concu pour etre compile en ligne de commande.
 Le Fichier CSV doit être mis dans le même dossier que le programme.
-Le Protocole est dispo dans le Protocole CSV.txt disponible dans la branche donnees et sur le programme.
+Le Protocole pour créer son propre CSV est dispo dans le fichier Protocole CSV.txt disponible dans la branche donnees et dans le rapport.
 
 ### Sous Windows (Code::Blocks ou MinGW)
 
